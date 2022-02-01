@@ -7,24 +7,26 @@
     background-repeat: no-repeat;
     background-position-x: -17.8rem;
     background-position-y: 0;
+    display: grid;
+    justify-content: center;
+    text-align: center;
     max-width: 143.9rem;
- 
         @media screen and(min-width:523px) {
             background-position-x: 1.8rem;
             
         }
 
     &__hero {
-     display: grid;
-     justify-content: center;
-     text-align: center;
+     
+     
+      
+     width: 100%;
+  
      padding-top: 12.3rem;
      border: 1px solid red;
 
     }
     
-
-
     &__hero-logo {
         padding-left: 12.5rem;
         padding-right: 12.5rem;
@@ -33,20 +35,11 @@
     &__text {
         padding: 6.4rem 3.2rem 0 3.2rem;
        
- 
-        p {
-            // max-width: 71rem;
-text-align: center;
-             @media screen and(min-width:525px) {
-                max-width: 45rem;
-            }
-        }
-
-
-
+        // max-width: 71rem;
+        width: clamp(31.3rem, 100%, 72rem); 
     }
 
-     
+         
     &__btns {
         padding: 4.8rem 3.2rem 0 3.2rem; 
     }
