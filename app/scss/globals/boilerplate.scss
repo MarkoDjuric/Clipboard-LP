@@ -1,6 +1,7 @@
 html {
   /*Percentage of user's browser font-size setting*/ 
     font-size: 62.5%;
+    // font-size: 100%;
     box-sizing: border-box;
 }
 
@@ -18,7 +19,7 @@ body {
 
 
 *:focus {
-    outline: 3px dashed rgb(10, 8, 8);
+    outline: 0.3rem dashed rgb(10, 8, 8);
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */

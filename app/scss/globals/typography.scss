@@ -19,25 +19,31 @@ h3 {
     //reset browser's default adding margin 
       margin-top: 0;
 	  color: var(--h-col);
+	  
+	  letter-spacing: 0.075rem;
 }
 
 h1 {
-	font-size: 3.2rem;
+	// font-size: 3.2rem;
+	font-size: clamp(3rem, -4vw + 6rem, 4.5rem);
 	font-weight: normal;
-	letter-spacing: 0.005rem;
+	// letter-spacing: 0.005rem;
+
+	// max-width: 73rem;
+
 }
 
 
 p {
 	margin: 0;
-	font-size: 1.6rem;
-    color: var(--p-grayishblue);
-	line-height: 2.6rem;
-	letter-spacing: 0.006rem;
+	// font-size: 1.6rem;
+	font-size:clamp(1.6rem, 1.5vw, 2rem);
+
+    color: var(--p-gray);
+	// line-height: 2.6rem;
+	letter-spacing: 0.03rem;
+	max-width: 60rem;	
 }
-
-
-
 
 li {
     color: var(--h-col);
