@@ -1,0 +1,11 @@
+@use '../util' as *;
+
+
+.header {
+
+    &__hero {
+        max-width: 143.9rem;
+        width: 100%;
+        border: 1px solid red;
+    }
+}
