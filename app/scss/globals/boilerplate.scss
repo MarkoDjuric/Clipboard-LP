@@ -17,23 +17,10 @@ body {
 }
 
 
-p {
-    font-size: 1.6rem;
-    color: var(--p-grayishblue);
-}
 
 
-h1,
-h2,
-h3 {
-    //reset browser's default adding margin 
-    margin-top: 0;
-	  color: var(--h-col);
-}
 
-li {
-    color: var(--h-col);
-}
+
 
 *:focus {
     outline: 3px dashed rgb(10, 8, 8);

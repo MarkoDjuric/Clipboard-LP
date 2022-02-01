@@ -4,7 +4,7 @@ h1,
 h2,
 h3 {
 	margin-top: 0;
-	line-height: 1.1;
+	
 }
 
 a,
@@ -13,3 +13,33 @@ a:active {
 	text-decoration: none;
 }
 
+h1,
+h2,
+h3 {
+    //reset browser's default adding margin 
+      margin-top: 0;
+	  color: var(--h-col);
+}
+
+h1 {
+	font-size: 3.2rem;
+	font-weight: normal;
+	letter-spacing: 0.005rem;
+}
+
+
+p {
+	margin: 0;
+	font-size: 1.6rem;
+    color: var(--p-grayishblue);
+	line-height: 2.6rem;
+	letter-spacing: 0.006rem;
+}
+
+
+
+
+li {
+    color: var(--h-col);
+}
+	
