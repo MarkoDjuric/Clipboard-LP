@@ -17,6 +17,8 @@ button {
         filter: drop-shadow(0 0.4rem 0.4rem #333333);
         transform: translateY(-1.1rem);
     }
+
+
 }
 
 
@@ -24,6 +26,10 @@ button {
     background-color: var(--btn-cyan);
     border-bottom: 0.3rem solid #1d907f;
     box-shadow: inset 0 8px 20px 0px rgb(38 186 164 / 40%);
+
+    @media screen and(min-width:705px) {
+     margin-right: 1.11vw;  
+    }
 }
 
 
