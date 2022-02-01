@@ -1,4 +1,8 @@
 button {
+    display: inline-block;
     font-size: 1.8rem;
-    color: var();
+    color: var(--white);
+    padding:1.3rem 8rem;
+    line-height: 3rem;
+     letter-spacing: 0.5px;
 }
