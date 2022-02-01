@@ -9,9 +9,12 @@ button {
     cursor: pointer;
     border: 0;
     font-weight: 400;
+    transition: all 0.5s;
 
     &:hover {
-        filter: drop-shadow(0 0.4rem 0.4rem hsla(0, 0%, 0%, 0.25));
+        // filter: drop-shadow(0 0.4rem 0.4rem hsla(0, 0%, 0%, 0.25));
+        filter: drop-shadow(0 0.4rem 0.4rem #333333);
+        transform: translateY(-1.1rem);
     }
 }
 
@@ -28,4 +31,3 @@ button {
     border-bottom: 3px solid #475dff;
     box-shadow: 0 8px 20px rgb(97 115 255 / 40%);
 }
-
