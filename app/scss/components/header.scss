@@ -2,10 +2,11 @@
 
 
 .header {
-
+    max-width: 143.9rem;
+    border: 1px solid red;
+    
     &__hero {
-        max-width: 143.9rem;
-        width: 100%;
-        border: 1px solid red;
+
     }
 }
+ 
