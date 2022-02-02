@@ -33,12 +33,20 @@
         text-align: center;
         padding: 12.3rem 3.2rem 0 3.2rem;
 
+        @media screen and(min-width:1300px) {
+            padding-top: 12.8rem;
+        }
+
 
     }
 
     &__hero-heading {
         padding-top: 6.4rem;
 
+        
+        @media screen and(min-width:1300px) {
+            padding-top: 5.6rem;
+        }
 
     }
 
@@ -46,22 +54,26 @@
     &__hero-par {
         padding-top: 1.6rem;
 
-        @media screen and(min-width:593px){
+        @media screen and(min-width:593px) and(max-width:1300px) {
             width: 75%;
         }
-
-        @media screen and(min-width:1300px){
-            width: unset;
-        }
-
         
     }
     
-    button {
-        @media screen and(min-width:1100px){
-            
+    &__btns {
+        @media screen and(min-width:780px) {
+           display: inline-block;
         }
     }
+
+        
+        
+    //     @media screen and(min-width:1100px){
+    //         display:inline-flex;
+           
+            
+    //     }
+     
 
 
 

@@ -2,7 +2,7 @@ button {
     display: inline-block;
     font-size: 1.8rem;
     color: var(--white);
-    padding: 1.15rem 8rem;
+    padding: 1.13rem 8rem;
     line-height: 3rem;
     width: 31.1rem;
     border-radius: 30rem;
@@ -16,6 +16,11 @@ button {
         // filter: drop-shadow(0 0.4rem 0.4rem hsla(0, 0%, 0%, 0.25));
         filter: drop-shadow(0 0.4rem 0.4rem #333333);
         transform: translateY(-1.1rem);
+    }
+
+    @media screen and(min-width:700px) {
+        padding: 1.13rem 3.7rem;
+        width: 22.7rem;
     }
 
 
