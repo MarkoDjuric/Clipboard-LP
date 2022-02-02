@@ -1,113 +1,165 @@
-@use '../util' as *;
+@use '../util'as *;
 
 
 .header {
     background-image: url("../../../images/bg-header-mobile.png");
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position-x: -17.8rem;
     background-position-y: 0;
-    display: grid;
-    justify-content: center;
-    text-align: center;
     width: 100%;
 
-        @media screen and(min-width:523px) {
-            background-position-x: 1.8rem;
-            
-        }
 
-        
-        @media screen and(min-width:800px) {
-            background-position-x: 0rem;
-            background-position-x: 3rem;
-            height: 36.3rem;
-            background-image: url("../../../images/bg-header-desktop.png");
-         
-        }
+    @media screen and(min-width:523px) {
+        background-position-x: 1.8rem;
+
+    }
+
+
+    @media screen and(min-width:800px) {
+        background-position-x: 0rem;
+        background-position-x: 3rem;
+        height: 36.3rem;
+        background-image: url("../../../images/bg-header-desktop.png");
+
+    }
+
 
     &__hero {
-     
-        max-width: 150.9rem;
-      
-     
-     
-  
-     padding-top: 12.3rem;
-  
-    }
-    
-    &__hero-logo {
-        padding-left: 12.5rem;
-        padding-right: 12.5rem;
-    }
-        
-    &__text {
-        padding: 6.4rem 3.2rem 0 3.2rem;
-    
-        max-width: 76rem;
-        // width: clamp(31.3rem, 100%, 72rem); 
-
-   
-        p {
-            // max-width: 80rem;
-            @media screen and(min-width:520px) {
-              padding-left:6rem;
-              padding-right:6rem;
-                
-            }
-
-            @media screen and(min-width:710px) {
-                padding-left:7rem;
-                padding-right:7rem;
-                letter-spacing: 0.015rem;
-                line-height: 3rem;
-                  
-              }
-
-              @media screen and(min-width:1200px) {
-                padding-left:0rem;
-                padding-right:0rem;
-                max-width: 73rem;
-                  
-              }
-
-        
- 
-            }
-            @media screen and(min-width:1200px) {
-                padding-left:0rem;
-                padding-right:0rem;
-                // max-width: 73rem;
-                  
-              }
-
-    }
-
-
-
-
-            
- 
-              
-
          
-    &__btns {
-        padding: 4.8rem 3.2rem 0 3.2rem; 
+        max-width: 79rem;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        padding: 12.3rem 3.2rem 0 3.2rem;
+
+
     }
+
+    &__hero-heading {
+        padding-top: 6.4rem;
+
+
+    }
+
+
+    &__hero-par {
+        padding-top: 1.6rem;
+
+        @media screen and(min-width:593px){
+            width: 75%;
+        }
+
+        @media screen and(min-width:1300px){
+            width: unset;
+        }
+
         
-        
+    }
     
- 
+    button {
+        @media screen and(min-width:1100px){
+            
+        }
+    }
 
-   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // &__hero {
+    //     width: 100%;
+    // max-width: 150.9rem;
+    // display: grid;
+    // place-items: center;
+
+    // text-align: center;
+    // padding: 12.3rem;
+
+    // }
+
+    // &__hero-logo {
+    //     padding-left: 12.5rem;
+    //     padding-right: 12.5rem;
+    // }
+
+    // &__text {
+    //     padding: 6.4rem 3.2rem 0 3.2rem;
+    //     max-width: 76rem;
+    // }
+
+    // width: clamp(31.3rem, 100%, 72rem); 
+
+    //     p {
+
+    //         // max-width: 80rem;
+    //         @media screen and(min-width:520px) {
+    //             padding-left: 6rem;
+    //             padding-right: 6rem;
+
+    //         }
+
+    //         @media screen and(min-width:710px) {
+    //             padding-left: 7rem;
+    //             padding-right: 7rem;
+    //             letter-spacing: 0.015rem;
+    //             line-height: 3rem;
+
+    //         }
+
+    //         @media screen and(min-width:1200px) {
+    //             padding-left: 0rem;
+    //             padding-right: 0rem;
+    //             max-width: 73rem;
+
+    //         }
+
+    //     }
+
+    //     @media screen and(min-width:1200px) {
+    //         padding-left: 0rem;
+    //         padding-right: 0rem;
+    //         // max-width: 73rem;
+
+    //     }
+
+    // }
+
+
+    // &__btns {
+    //     padding: 4.8rem 3.2rem 0 3.2rem;
+    // }
+
 }
-
-        
-          
-
-
-
-
-
- 
