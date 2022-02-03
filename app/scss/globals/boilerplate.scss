@@ -3,9 +3,9 @@ html {
     font-size: 62.5%;
     // font-size: 100%;
     box-sizing: border-box;
-
-
 }
+
+
     
 *,
 *::before,
@@ -19,6 +19,9 @@ body {
     font-family: var(--font-baijamjuree);
 }
 
+img {
+  max-width: 100%;
+}
 
 *:focus {
     outline: 0.3rem dashed rgb(10, 8, 8);
