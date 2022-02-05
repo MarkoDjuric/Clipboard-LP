@@ -1,0 +1,79 @@
+.workflow {
+    margin-top: 13rem;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+
+
+    &__wrapper {
+        max-width: 111rem;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 3rem;
+
+
+        @media screen and(min-width:800px) {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto auto auto;
+
+        }
+
+
+        .wrapper-h {
+            // margin-bottom: 1.1rem;
+            margin-bottom: clamp(1.1rem, 2vw, 1.9rem);
+            font-size: 2.8rem;
+
+            @media screen and(min-width:800px) {
+                grid-column: 1 / 4;
+            }
+        }
+
+        .wrapper-p {
+            margin-bottom: 9rem;
+            font-size: 1.6rem;
+
+            @media screen and(min-width:800px) {
+                grid-column: 1 / 4;
+                margin-bottom: 7.2rem;
+                font-size: 1.6rem;
+            }
+        }
+
+    }
+
+    .blacklists,
+    .snippets {
+        margin-bottom: 5.6rem;
+
+    }
+
+    @media screen and(min-width:800px) {
+
+        .blacklists,
+        .snippets,
+        .sneak {
+            margin-bottom: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            gap: 2rem;
+          
+        }
+
+        .p-sm {
+            font-size: 1.6rem;
+            letter-spacing: 0.0012rem;
+            line-height: 2.6rem;
+            
+
+            @media screen and(min-width:1200px) {
+                line-height: 3rem;
+            }
+        }
+
+     
+    }
+
+}

@@ -1,5 +1,5 @@
 .info {
-    // margin-top: 16rem;
+    margin-top: 16rem;
     // position: relative;
     &__wrapper {
      
@@ -12,7 +12,7 @@
         max-width: 124rem;
         margin-top: 13rem;
 
-        @media screen and(min-width:823px) {
+        @media screen and(min-width:800px) {
            margin-top: 34rem;
         }
    
