@@ -20,9 +20,12 @@
               }
 
  
-              
+            @media screen and (min-width:700px) {
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: auto;
+            }  
 
-              
+
 
               img {
                 width: 5.5rem;
