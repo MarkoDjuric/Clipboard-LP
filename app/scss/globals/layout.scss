@@ -6,6 +6,7 @@
 }
 
 
+//Paragraph's padding
 .pad_b-sm {
   padding-bottom: 4.8rem;
   max-width: 50ch;
@@ -27,4 +28,13 @@
     line-height: 3rem;
     text-align: left;
   }
+}
+
+// SVG images
+.svg-paddbtm {
+  margin-bottom: 4.4rem;
+  @media screen and(min-width:823px) {
+    margin-bottom: 0;
+  }
+  
 }
