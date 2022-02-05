@@ -1,1 +1,15 @@
-            
+      
+  .footer {
+
+      &__footer {
+          max-width: 111.1rem;
+          display: grid;
+          place-items: center;
+      }
+  }
+  
+  
+ a {
+      font-size: 1.8rem;
+      color:var(--hli-col);
+  }
