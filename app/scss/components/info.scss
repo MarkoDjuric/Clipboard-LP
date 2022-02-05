@@ -1,7 +1,8 @@
 .info {
-    margin-top: 16rem;
+    // margin-top: 16rem;
     // position: relative;
     &__wrapper {
+     
         display: grid;
         grid-template-columns: 1fr;
         place-items: center;
@@ -9,8 +10,11 @@
         text-align: center;
         width: 100%;
         max-width: 124rem;
-       
-      
+        margin-top: 13rem;
+
+        @media screen and(min-width:823px) {
+           margin-top: 34rem;
+        }
    
 
         img {
@@ -19,8 +23,8 @@
             padding-bottom: clamp(5.6rem, 11%, 15rem);
 
                 @media screen and(min-width:823px) {
-                position:relative;
-                left:-23rem;
+                    position:relative;
+                    left:-23rem;
                 }
            
             // max-width: 75.2rem;
@@ -40,7 +44,7 @@
     
 
             .info__h {
-
+        
                 grid-column: 1 / 5;
                 grid-row: 1 / 2;
                 // max-width: 73rem;
