@@ -42,6 +42,11 @@
             display: block;
             margin: 0 auto;
 
+            &:hover {
+                transform: scale(1.3);
+                transition-duration: 50ms;
+            }
+
 
 
 
